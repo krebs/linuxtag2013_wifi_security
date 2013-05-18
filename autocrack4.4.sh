@@ -19,10 +19,10 @@ DIR="$( cd "$( dirname "$0" )" && pwd )"
 usestartaircrack="no" 
 #
 #To skip package check simply change below to festivaltest="yes"
-festivaltest=`apt-cache pkgnames festival`
+festivaltest=yes
 #
 #To skip package check simply change below to aircracktest="yes"
-aircracktest=`apt-cache pkgnames aircrack-ng`
+aircracktest=yes
 #
 #Sets CLIENT_MAC to this computers mac address. I think that if you were to enter a fake mac it might work 
 #example - CLIENT_MAC="00:00:00:00:00"
