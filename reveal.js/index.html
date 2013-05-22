@@ -1,114 +1,116 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
+<head>
+<meta charset="utf-8">
 
-        <title>reveal.js - The HTML Presentation Framework</title>
+<title>reveal.js - The HTML Presentation Framework</title>
 
-        <meta name="description" content="Penetration testing wit the TL-WR703n">
-        <meta name="author" content="Lassulus & makefu">
+<meta name="description" content="Penetration testing wit the TL-WR703n">
+<meta name="author" content="Lassulus & makefu">
 
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <link rel="stylesheet" href="css/reveal.min.css">
-        <link rel="stylesheet" href="css/theme/default.css" id="theme">
+<link rel="stylesheet" href="css/reveal.min.css">
+<link rel="stylesheet" href="css/theme/default.css" id="theme">
 
-        <!-- For syntax highlighting -->
-        <link rel="stylesheet" href="lib/css/zenburn.css">
+<!-- For syntax highlighting -->
+<link rel="stylesheet" href="lib/css/zenburn.css">
 
-        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
-        <script>
-            document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
-        </script>
+<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+<script>
+document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+</script>
 
-        <!--[if lt IE 9]>
+<!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
         <![endif]-->
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <div class="reveal">
-            <div class="slides">
-                <!-- Any section element inside of this container is displayed as a slide -->
+<div class="reveal">
+    <div class="slides">
+        <!-- Any section element inside of this container is displayed as a slide -->
 
-                <!-- Page 1-->
-                <section>
-                <h1>Minirouter als Pentesting Dropbox</h1>
-                <p>Lassulus</p>
-                <p>Makefu</p>
-                <img src="../img/krebs_plain.png" height="275">
-                <aside class="notes">
+        <!-- Page 1-->
+        <section>
+            <h1>Minirouter als Pentesting Dropbox</h1>
+            <p>Lassulus</p>
+            <p>Makefu</p>
+            <img src="../img/krebs_plain.png" height="275">
+            <aside class="notes">
                 <ul>
                     <li>-Krebs</li>
                     <li>-Lassulus</li>
                     <li>-Makefu</li>
                 </ul>
-                </aside>
-                </section>
+            </aside>
+        </section>
 
-                <section>
-                    <h3>Wer sind wir?</h3>
-                    <p><b>makefu(Felix Richter)</b></p>
-                    <ul>
-                        <li><p>security enthusiast</p></li>
-                        <li><p>krebsminister</p></li>
-                        <li><p>shackmitglied</p></li>
-                    </ul>
-                    <p><b>lassulus</b></p>
-                    <ul>
-                        <li><p>krebsminister</p></li>
-                        <li><p>student</p></li>
-                        <li><p>internetsuchti</p></li>
-                    </ul>
-                </section>
+        <section>
+            <h3>Wer sind wir?</h3>
+            <p><b>makefu(Felix Richter)</b></p>
+            <ul>
+                <li><p>security enthusiast</p></li>
+                <li><p>krebsminister</p></li>
+                <li><p>shackmitglied</p></li>
+            </ul>
+            <p><b>lassulus</b></p>
+            <ul>
+                <li><p>krebsminister</p></li>
+                <li><p>student</p></li>
+                <li><p>internetsuchti</p></li>
+            </ul>
+        </section>
 
-                <section>
-                    <h1>Disclaimer</h1>
-                    <p>Dinge werden hier nur theoretisch angesprochen</p>
-                    <p>Wir wollen Leute nicht zum nachmachen bringen</p>
-                    <p>Biite auf die jeweilige Gesetzeslage achten und keinen Schaden anrichten!</p>
-                </section>
+        <section>
+            <h1>Disclaimer</h1>
+            <p>Dinge werden hier nur theoretisch angesprochen</p>
+            <p>Wir wollen Leute nicht zum nachmachen bringen</p>
+            <p>Biite auf die jeweilige Gesetzeslage achten und keinen Schaden anrichten!</p>
+        </section>
 
-                <section>
-                    <h3>Warum?</h3>
-                    <p>Moeglichkeiten aufzeigen</p>
-                    <p>auf Gefahr hinweisen</p>
-                    <p>Diskussions-Grundlage schaffen</p>
-                </section>
+        <section>
+            <h3>Warum?</h3>
+            <p>Moeglichkeiten aufzeigen</p>
+            <p>auf Gefahr hinweisen</p>
+            <p>Diskussions-Grundlage schaffen</p>
+        </section>
 
-                <section>
-                <h3>Heckenkrebs</h3>
-                <aside class="notes">
+        <section>
+            <h3>Heckenkrebs</h3>
+            <aside class="notes">
                 <p>Heckenkrebs = Hodenkrebs</p>
-                </aside>
-                </section>
+            </aside>
+        </section>
 
-                <section>
-                <p>Was Google denkt</p>
-                <img src="../img/heckenkrebs_google.png">
-                <aside class="notes">
+        <section>
+            <p>Was Google denkt</p>
+            <img src="../img/heckenkrebs_google.png">
+            <aside class="notes">
                 <p>Heckenkrebs = Hodenkrebs</p>
-                </aside>
-                </section>
+            </aside>
+        </section>
 
-                <section>
-                <h3>Was ist Krebs?</h3>
-                <img src="../img/retiolum_1.png" height=600 width=900>
-                <aside class="notes">
+        <!--
+        <section>
+            <h3>Was ist Krebs?</h3>
+            <img src="../img/retiolum_1.png" height=600 width=900>
+            <aside class="notes">
                 <ul>
                     <li>¯\(°_o)/¯</li>
                     <li>Krebs gitrepo</li>
                     <li>Krebsminister</li>
                 </ul>
-                </aside>
-                </section>
+            </aside>
+        </section>
+        -->
 
-                <!--
+        <!--
                 <section>
                 <h3>Was wir meinen</h3>
                 <p>Dropbox sucht automatisch offene Wlans</p>
@@ -117,23 +119,23 @@
                 </section>
                 -->
 
-                <section>
-                <h3>Konzept: Dropbox</h3>
-                <p>Akku dran, in die Hecke damit.</p>
-                <p>kann Accesspoints knacken</p>
-                <p>Verbindungen aufzeichnen</p>
-                <p>und spoofen</p>
-                <aside class="notes">
+        <section>
+            <h3>Konzept: Dropbox</h3>
+            <p>Akku dran, in die Hecke damit.</p>
+            <p>kann Accesspoints knacken</p>
+            <p>Verbindungen aufzeichnen</p>
+            <p>und spoofen</p>
+            <aside class="notes">
                 <ul>
                     <li>Akku dran, in die Hecke damit.</li>
                     <li>kann Accesspoints knacken</li>
                     <li>Verbindungen aufzeichnen</li>
                     <li>und spoofen</li>
                 </ul>
-                </section>
+            </section>
 
-                <!-- Page 5-->
-                <!--
+            <!-- Page 5-->
+            <!--
                 <section>
                 <h2>Technische Daten</h2>
                 <ul>
@@ -151,62 +153,71 @@
                 </section>
                 -->
 
-                <section>
+            <section>
                 <h3>Wireless security heute</h3>
                 <img src="../img/wifi_security.jpg" height=570>
                 <p><small>Quelle:Google Images</small></p>
                 <aside class="notes">
-                <ul>
-                    <li>Easybox Passowrt generator</li>
-                    <li>WPS Bruteforce</li>
-                    <li>WEP Cracking</li>
-                    <li>WPA/WPA2 Cloud Bruteforcing</li>
-                </ul>
+                    <ul>
+                        <li>Easybox Passowrt generator</li>
+                        <li>WPS Bruteforce</li>
+                        <li>WEP Cracking</li>
+                        <li>WPA/WPA2 Cloud Bruteforcing</li>
+                    </ul>
                 </aside>
-                </section>
+            </section>
 
-                <!-- Page 6-->
-                <section>
+            <!-- Page 6-->
+            <section>
                 <h3>Wardriving heute</h3>
                 <img src="../img/album_pic4_www.wardriver.ch.jpg" height=570>
                 <p><small>Quelle: http://wardriver.ch</small></p>
                 <aside class="notes">
-                <p>epic Wardriving p1</p>
+                    <p>epic Wardriving p1</p>
                 </aside>
-                </section>
+            </section>
 
-                <!-- Page 7-->
-                <section>
+            <!-- Page 7-->
+            <section>
                 <img src="../img/album_pic14_www.wardriver.ch.jpg" height=600>
                 <p><small>Quelle: http://wardriver.ch</small></p>
                 <aside class="notes">
-                <p>epic Wardriving p2</p>
+                    <p>epic Wardriving p2</p>
                 </aside>
-                </section>
+            </section>
 
-                <section>
+            <section>
                 <h2>Plattform WR703n</h2>
                 <img src="../img/krebs_akku.jpg" height=440>
                 <p>AR7240 CPU (400Mhz), 32MB RAM, 5,7cm x 5,7cm x 1,8cm</p>
                 <p>Preis: $20</p>
                 <aside class="notes">
-                <ul>
-                    <li>Hersteller: TP-Link</li>
-                    <li>20 Dollar China</li>
-                    <li>Openwrt</li>
-                </ul>
+                    <ul>
+                        <li>Hersteller: TP-Link</li>
+                        <li>20 Dollar China</li>
+                        <li>Openwrt</li>
+                    </ul>
                 </aside>
-                </section>
+            </section>
 
-                <section>
-                    <h3>Funktionsweise Heckenkrebs</h3>
-                    <p>scannen nach offenen Wlans (AutoAP)</p>
-                    <p>suchen nach schwachen Verschluesselungen(EasyBox-hack)</p>
-                    <p>Verbinden zum Darknet(Tinc-vpn)</p>
-                </section>
+            <section>
+                <h3>Angriffsszenario 1</h3>
+                <ul>
+                    <li>Sysadmin betreibt WLAN(EasyBox) in grosser Firma</li>
+                    <li>Firma selbst bietet keine vereinheitlichte Loesung</li>
+                    <li>benutzt WLAN um mit Smartphone im Internet zu surfen</li>
+                </ul>
+            </section>
 
-                <!-- Page 8-->
-                <!--
+            <section>
+                <h3>Funktionsweise Heckenkrebs</h3>
+                <p>scannen nach offenen Wlans (AutoAP)</p>
+                <p>suchen nach schwachen Verschluesselungen(EasyBox-hack)</p>
+                <p>Verbinden zum Darknet(Tinc-vpn)</p>
+            </section>
+
+            <!-- Page 8-->
+            <!--
                 <section>
                 <img src="../img/album_pic3_www.wardriver.ch.jpg" height=600>
                 <aside class="notes">
@@ -215,81 +226,81 @@
                 </section>
                 -->
 
-                <section>
+            <section>
                 <h3>Live Hack: Heckenkrebs Easybox</h3>
                 <aside class="notes">
-                <p>Easybox Livehack sollte schon bereit sein :D</p>
+                    <p>Easybox Livehack sollte schon bereit sein :D</p>
                 </aside>
-                </section>
+            </section>
 
-                <section>
-                    <h3>Funktionsweise: Rickroller</h3>
-                    <p>oeffnet einen Accesspoint</p>
-                    <p>& beantwortet alle Netzwerkanfragen(aircrack-ng)</p>
-                    <p>schickt anstatt Internetinhalt Rick-Astley Musik</p>
-                </section>
+            <section>
+                <h3>Funktionsweise: Rickroller</h3>
+                <p>oeffnet einen Accesspoint</p>
+                <p>& beantwortet alle Netzwerkanfragen(aircrack-ng)</p>
+                <p>schickt anstatt Internetinhalt Rick-Astley Musik</p>
+            </section>
 
-                <!-- Page 12-->
-                <section>
+            <!-- Page 12-->
+            <section>
                 <h3>Live Hack: RickRoller</h3>
                 <aside class="notes">
-                <p>RickRoller Livehack sollte schon bereit sein :D</p>
+                    <p>RickRoller Livehack sollte schon bereit sein :D</p>
                 </aside>
-                </section>
+            </section>
 
-                <section>
+            <section>
                 <h3>Outlook</h3>
                 <p>WPA/WPA2 via Cloudhacking</p>
                 <p>Reaver WPS Bruteforce<p>
                 <p>Einsatz als Wanze</p>
                 <p>Bluetooth hacking[Referenz hier]</p>
                 <img src="../img/krebs_cam.jpg" height=300>
-                </section>
+            </section>
 
-                <!-- Final Page -->
-                <section>
+            <!-- Final Page -->
+            <section>
                 <h3>Credits</h3>
                 <p>Minikrebs: http://shackspace.de/wiki/doku.php?id=project:minikrebs</p>
                 <p>Easybox Hack: http://wotan.cc</p>
                 <p>Openwrt WR703n: http://wiki.openwrt.org/toh/tp-link/tl-wr703n</p>
                 <p>Reaver WPS: http://code.google.com/p/reaver-wps/</p>
-                </section>
-
-            </div>
-
+            </section>
 
         </div>
 
-        <script src="lib/js/head.min.js"></script>
-        <script src="js/reveal.min.js"></script>
 
-        <script>
+    </div>
 
-            // Full list of configuration options available here:
-            // https://github.com/hakimel/reveal.js#configuration
-            Reveal.initialize({
-                controls: true,
-                progress: true,
-                history: true,
-                center: true,
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
 
-                theme: 'moon', // available themes are in /css/theme
-                transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+    <script>
 
-                // Optional libraries used to extend on reveal.js
-                dependencies: [
-                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-                { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-                // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
-                // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
-                ]
-            });
+// Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
 
-        </script>
+        theme: 'moon', // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+            { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+            // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+            // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+    });
+
+    </script>
 
     </body>
-</html>
+    </html>
